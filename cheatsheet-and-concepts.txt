@@ -1,0 +1,25 @@
+2 very important shell commands you need to know:
+
+cd target
+ - changes directory
+dir
+ - lists directory contents
+
+
+
+ cd Desktop\new_project_one
+ # ^^ this was a "relative" path
+ #    relative to the starting point
+ #    which was C:\Users\My-User
+
+ cd C:\new_project_two
+ #  ^^ this is an "absolute" path
+
+
+
+
+ when you are in a pager (you can tell because on the bottom line you have a ":", to exit press "q")
+
+
+ when in trouble,
+ Ctrl+C stops most applications (except for the pager)
