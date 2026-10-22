@@ -7,15 +7,18 @@ dir
 
 
 
- cd Desktop\new_project_one
- # ^^ this was a "relative" path
- #    relative to the starting point
- #    which was C:\Users\My-User
+cd Desktop\new_project_one
+# ^^ this was a "relative" path
+#    relative to the starting point
+#    which was C:\Users\My-User
 
- cd C:\new_project_two
- #  ^^ this is an "absolute" path
+cd C:\new_project_two
+#  ^^ this is an "absolute" path
 
+cd ..
+#  ^ navigates to the parent folder
 
+remember, inside the shell ↑ (arrow up) and ↓ (arrow down) recall the previous commands.
 
 
  when you are in a pager (you can tell because on the bottom line you have a ":", to exit press "q")
@@ -23,3 +26,56 @@ dir
 
  when in trouble,
  Ctrl+C stops most applications (except for the pager)
+
+
+
+
+
+ "staging" --> means things are not committed yet, but are prepared for commit
+
+ 3 states:
+  - 1) untracked file
+  - 2) staged for commit (added with git add)
+  - 3) tracked (commited)
+
+# useful shell commands:
+mkdir directory_name
+
+# shell command to write contents directly into a file:
+echo some content > myfile.txt
+
+
+
+Vim: a "multi-modal" text editor, that is driven with "commands".
+
+command mode is entered with ":"
+
+the quit command is "quit", or short "q".
+commands can be forced with "!"
+
+comenzile importante de vim:
+- w (write)
+- q (quit)
+- x (write and quit)
+
+we said multi-modal. to enter Insert mode press "i"
+to exit any mode, press Esc
+
+
+
+
+more working with the shell:
+selection and Enter = copy
+right click = paste
+
+
+
+
+git commit fără -m
+va deschide editorul default
+pentru a scrie commit message-ul
+
+dacă scrieți
+git commit file1 file2
+se face automat git add, fără să fie nevoie de el explicit în prealabil
+
