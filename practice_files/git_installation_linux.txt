@@ -1,0 +1,11 @@
+Git Installation Guide for Linux
+
+1. Open a terminal on your Linux system.
+2. Update the package list with `sudo apt update` (Debian/Ubuntu) or `sudo dnf update` (Fedora) or equivalent for your distribution.
+3. Install Git with `sudo apt install git` (Debian/Ubuntu) or `sudo dnf install git` (Fedora) or `sudo pacman -S git` (Arch).
+4. Confirm the installation when prompted.
+5. Verify the installation by running `git --version` in the terminal.
+6. If the version displays correctly, Git is successfully installed.
+7. Optionally, configure your name and email with:
+   - `git config --global user.name "Your Name"`
+   - `git config --global user.email "your.email@example.com"`.

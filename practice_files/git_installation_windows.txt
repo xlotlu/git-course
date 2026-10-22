@@ -1,0 +1,15 @@
+Git Installation Guide for Windows  
+
+1. Download Git from https://git-scm.com/.  
+3. Accept the license agreement and click Next.
+4. Choose the installation directory or use the default and click Next.  
+5. Select components to install and click Next.  
+6. Choose the Start Menu folder name and click Next.  
+7. Select the PATH environment option (default recommended) and click Next.  
+8. Choose HTTPS transport backend (default OpenSSL) and click Next.  
+9. Configure line ending conversions (default recommended) and click Next.  
+10. Select the terminal emulator (default MinTTY) and click Next.  
+11. Configure extra options (default recommended) and click Next.  
+12. Click Install to begin the installation.  
+13. Once complete, click Finish to exit the installer.  
+14. Open Git Bash and run `git --version` to verify the installation.  

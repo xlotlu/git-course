@@ -1,0 +1,7 @@
+2. Update the package list:
+   - **Debian/Ubuntu**: Run `sudo apt update`.
+   - **Fedora**: Run `sudo dnf update`.
+3. Install Git:
+   - **Debian/Ubuntu**: Run `sudo apt install git`.
+   - **Fedora**: Run `sudo dnf install git`.
+   - **Arch**: Run `sudo pacman -S git`.

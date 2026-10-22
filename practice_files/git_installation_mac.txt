@@ -1,0 +1,11 @@
+Git Installation Guide for macOS
+
+1. Open the Terminal application.
+2. Check if Git is already installed by running `git --version`.
+3. If Git is not installed, you will be prompted to install Xcode Command Line Tools.
+4. Click "Install" in the pop-up and follow the prompts.
+5. Wait for the installation to complete.
+6. Verify the installation by running `git --version` again.
+7. Optionally, configure your name and email with:
+   - `git config --global user.name "Your Name"`
+   - `git config --global user.email "your.email@example.com"`.
